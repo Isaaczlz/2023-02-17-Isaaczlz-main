@@ -84,14 +84,3 @@ export const getShips = () => {
       .catch((error) => console.log(error));
   };
 };
-
-// export const getCharacterDetail = (id) => {
-//   return (dispatch) => {
-//     return axios
-//       .get(`http://localhost:3001/character/${id}`)
-//       .then((response) => {
-//         dispatch({ type: GET_CHARACTER_DETAIL, payload: response.data });
-//       })
-//       .catch((error) => console.log(error));
-//   };
-// };
